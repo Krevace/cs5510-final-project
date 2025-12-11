@@ -30,6 +30,6 @@ Simply run ```./run-test-queue.sh```.
     4. 500K concurrent enqueues & dequeues
 - **Each Cell:** Reports three executions of the same setup for averaging, including:
     1. Throughput (operations per second)
-    2. Latency (microseconds)
+    2. Average Latency (microseconds)
 
 Correctness checks are made in tandem. If any check fails, the program will print an error message and immediately exit.
